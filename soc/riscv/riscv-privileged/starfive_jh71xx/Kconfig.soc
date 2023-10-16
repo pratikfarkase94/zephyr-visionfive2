@@ -2,11 +2,11 @@
 # SPDX-License-Identifier: Apache-2.0
 
 choice
-	prompt "Starfive JH7100 SoC"
+	prompt "Starfive JH7110 SoC"
 	depends on SOC_SERIES_STARFIVE_JH71XX
 
 config SOC_JH7100
-	bool "Starfive JH7100"
+	bool "Starfive JH7110"
 	select ATOMIC_OPERATIONS_BUILTIN
 	select INCLUDE_RESET_VECTOR
 	select RISCV_ISA_RV64I
