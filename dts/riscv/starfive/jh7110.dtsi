@@ -14,7 +14,6 @@
 #include <dt-bindings/power/jh7110-power.h>
 #include <dt-bindings/thermal/thermal.h>
 
-
 / {
 	compatible = "starfive,jh7110";
 	#address-cells = <2>;
@@ -380,7 +379,7 @@
 			power-domains = <&pwrc JH7110_PD_ISP>;
 			status = "okay";
 		};
-/home/pratik/visionfive2-zephyr/zephyrproject/zephyr/dts/riscv/starfive/jh7110.dtsi
+
 		qspi: spi@13010000 {
 			compatible = "cdns,qspi-nor";
 			#address-cells = <1>;
